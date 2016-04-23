@@ -72,7 +72,7 @@ public class MyCanvas extends GLCanvas implements GLEventListener {
         Planet venus = new Planet(gl,glu, getObjectTexture(gl, textureFile), 0.7f, SUN_RADIUS + 16f , 3.56f);
 
         textureFile = "C:\\Users\\darkg\\workspace\\JOGL_Textures\\mars_1k_color.jpg";
-        Planet mars = new Planet(gl,glu, getObjectTexture(gl, textureFile), 0.4f, SUN_RADIUS + 55f , 5.01f);
+        Planet mars = new Planet(gl,glu, getObjectTexture(gl, textureFile), 0.25f, SUN_RADIUS + 55f , 5.01f);
         planets.add(mercury);
         planets.add(venus);
         planets.add(mars);
